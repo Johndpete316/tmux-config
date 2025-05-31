@@ -38,6 +38,12 @@ This repository provides a set of configuration files and scripts to enhance you
    fi
    ```
 
+   or by running the following command to append the config to your existing .bashrc
+   
+   ```
+   cat tmux-config/.bashrc >> .bashrc
+   ```
+
 3. **Reload your shell**
 
    Run `source ~/.bashrc` or open a new terminal window. tmux should start automatically with your custom session layout.
