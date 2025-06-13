@@ -1,0 +1,1 @@
+//10.16.10.50/smbshare /mnt/smbshare cifs credentials=/etc/samba/credentials,uid=1000,gid=1000,file_mode=0770,dir_mode=0770,_netdev 0 0
