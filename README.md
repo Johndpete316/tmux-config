@@ -8,8 +8,7 @@ This repository provides a set of configuration files and scripts to enhance you
   - Changes the default prefix to `Ctrl-a` (instead of `Ctrl-b`).
   - Enables mouse support and disables automatic window renaming.
   - Provides convenient keybindings for splitting panes, switching windows/panes, and reloading the config.
-  - Sets up Alt+number shortcuts for quick window switching.
-  - Styles the tmux status bar for clarity.
+  - Sets up Alt+number switches to window and creates it if it does not exit
 
 - **.tmux-startup.sh**: Bash script to automatically create (or attach to) a main tmux session with multiple pre-configured windows and panes for different projects and tools (e.g., server, htop, terminals).
 
@@ -39,7 +38,7 @@ This repository provides a set of configuration files and scripts to enhance you
    ```
 
    or by running the following command to append the config to your existing .bashrc
-   
+
    ```
    cat tmux-config/.bashrc >> .bashrc
    ```
@@ -49,6 +48,7 @@ This repository provides a set of configuration files and scripts to enhance you
    Run `source ~/.bashrc` or open a new terminal window. tmux should start automatically with your custom session layout.
 
 ## Notes
+
 - You can customize the directories and window names in `.tmux-startup.sh` to fit your workflow.
 - To reload tmux config while inside tmux, press `Ctrl-a` then `r`.
 - To switch windows, use `Alt+number` (e.g., `Alt+1` for the first window).
